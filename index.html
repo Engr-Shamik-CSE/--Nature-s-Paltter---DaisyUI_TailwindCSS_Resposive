@@ -465,13 +465,15 @@
             </div><!--End of 3rd card -->
 
             <!-- Get Grocery News Section  -->
-            <div class="relative z-20 flex flex-col md:flex-row lg:flex-row justify-around items-center w-full bg-bg_grad_yellow rounded-2xl py-16 shadow-lg mt-36 ">
+            <div
+                class="relative z-20 flex flex-col md:flex-row lg:flex-row justify-around items-center w-full bg-bg_grad_yellow rounded-2xl py-16 shadow-lg mt-28 md:mt-36 ">
                 <!-- busket image -->
                 <div class=" p-6 flex items-center w-3/4 md:w-5/12 lg:w-5/12 mx-auto">
                     <img src="assets/vegetable-busket.png" alt="Grocery Basket" class="w-full h-auto ">
                 </div>
                 <!-- email content -->
-                <div  class=" p-6 grid items-center text-center md:text-left lg:text-left w-full md:w-5/12 lg:w-5/12 mx-auto space-y-8">
+                <div
+                    class=" p-6 grid items-center text-center md:text-left lg:text-left w-full md:w-5/12 lg:w-5/12 mx-auto space-y-8">
                     <h2 class="text-3xl font-bold text-bg_green md:text-black_color">Get Grocery News!</h2>
                     <p class="font-semibold">Exclusive training tips, tricks, product deals and more.</p>
                     <div class="mt-3 grid items-center space-x-2 w-5/6 mx-auto md:mx-0">
@@ -489,16 +491,37 @@
 
     </main>
     <!-- footer -->
-    <footer class="bg-bg_green text-white pt-[400px] -mt-[340px]">
+    <footer class="bg-bg_green text-white pt-[330px] md:pt-[360px] pb-[50px] md:pb-[100px] -mt-[340px] ">
         <!-- content's container -->
-        <div class="container">
+        <div class="container mx-auto flex flex-wrap flex-col md:flex-row justify-between px-12 py-12 gap-10">
             <!-- Footer logo div -->
-             <div>
+            <div class="">
                 <img src="assets/logo-footer.png" alt="footer logo" class="">
-                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
-             </div>
+                <p>Discover a world of treats, toys, and essentials handpicked <br> for your furry friends</p>
+            </div>
             <!-- footer nav -->
+             <div class="">
+                <ul class="menu menu-vertical px-1 -ml-5 ">
+                    <li class="hover:text-white hover:bg-bg_green rounded-md"><a
+                            class="text-lg md:text-lg font-semibold">Product </a></li>
+                    <li class="hover:text-white hover:bg-bg_green rounded-md"><a
+                            class="text-lg md:text-lg font-semibold">Services</a></li>
+                    <li class="hover:text-white hover:bg-bg_green rounded-md"><a
+                            class="text-lg md:text-lg font-semibold">Contact us</a></li>
+                </ul>
+             </div>
+            
             <!-- footer social links -->
+             <div>
+                <p>Follow Us</p>
+                <div class="flex gap-3 pt-4">
+                    <a href="#"><img src="assets/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="assets/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="assets/linkedIn.png " alt="linkedIn"></a>
+                    <a href="#"><img src="assets/youtube.png" alt="youtube"></a>
+                </div>
+             </div>
+
         </div>
     </footer>
 </body>
